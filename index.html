@@ -11,6 +11,14 @@
 </head>
 
 <body>
+    <script language="JavaScript">
+        let question = prompt("Как к вам можно обращаться?", "Имя");
+        function showQuestion() {
+            let message = 'Добрый день, ' + question;
+            alert(message);
+        }
+        showQuestion(question);
+    </script>
     <div class="container">
         <div class="header">
             <img src="/images/logo.png" alt="Logo">
@@ -25,9 +33,10 @@
         <div class="content">
             <h1><b>Free Time</b> - Освободи время для жизни!</h1>
             <img src="/images/bali.jpg" alt="картинка">
-                <p><h3><b>Free Time</b>
-                    Это компания, которая подарит предпринимателям свободу от решения сложных задач!</h3>
-                </p>
+            <p>
+            <h3><b>Free Time</b>
+                Это компания, которая подарит предпринимателям свободу от решения сложных задач!</h3>
+            </p>
         </div>
         <div class="footer">
             <p>Все права защищены. Для того чтобы перейти вверх, нажмите <a href="#top">сюда</a>.</p>
